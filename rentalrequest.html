@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Rental Request</title>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.ZFDkRnDTLocPOnJyYNVPgwHaF1&pid=Api&P=0&w=208&h=164');
+  background-size: 1400px 850px;
+  }
+  
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+	<link rel="stylesheet" type="text/css" href="rental.css"/>
+
+
+	</head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- style.css  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- fontawesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+<body>
+  
+  <header><!-- ==============header menu section starts here============== -->
+  <section class="header_menu" id="header_menu">
+    <div class="container-fluid px-0 shadow">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3  ">
+        <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+          
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">BOOK CYCLES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html">RENTAL REQUEST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">PICKUP LOCATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">ABOUT US </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US </a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+          
+              
+            </a>
+          </div>
+          <d
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- ==============header menu section ends here============== -->
+
+<h1 align="center">LEAVE A RENTAL REQUEST</h1>
+
+ 
+<form>
+
+  <label for="fullname">Full Name:</label><br>
+  <input type="text" id="fullname" name="fullname"><br>
+  <label for="email id">Email ID:</label><br>
+   <input type="Email" id="email" name="email"><br>
+
+  <label for="pno">Mobile Number:</label><br>
+  <input type="text" id="pno" name="pno"><br>
+  <label for="address">Your Address:</label><br>
+
+  <textarea name="address" rows="5" cols="30">
+  	
+</textarea><br>
+   <label for="when">When do you want cycles?</label><br>
+  
+  <input type="date" name="begin" 
+        placeholder="dd-mm-yyyy" value=""
+        min="1997-01-01" max="2030-12-31"><br>
+
+  <label for="Duration">Duration:</label><br>
+  <input type="duration" id="duration" name="duration"><br>
+
+ 
+<input type="radio" id="days" name="days" value="days">
+  <label for="days">Days</label><br>
+  <input type="radio" id="weeks" name="weeks" value="weeks">
+  <label for="weeks">Weeks</label><br>
+  <input type="radio" id="months" name="months" value="months">
+  <label for="months">Months</label><br><br>
+  
+<form action="/action_page.php">
+  <label for="no">Select Number of Cycles:</label>
+  <select id="no name="no">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+     <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    
+  </select>
+  <h3>Accesssories</h3>
+
+   <input type="checkbox" id="hemet" name="helmet" value="hemlet">
+  <label for="helmet">Helmet</label><br>
+  <input type="checkbox" id="back" name="back" value="back">
+  <label for="back">Back light</label><br>
+  <input type="checkbox" id="front" name="front" value="front">
+  <label for="front"> Front light</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+</form>
+
+<marquee direction="right" scrollmount="30"> <h2 style="color:blue;">At max seven cycles can be rented at a time by a person.</h2></marquee>
+</body>
+
+</html>
