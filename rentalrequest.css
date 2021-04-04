@@ -1,8 +1,11 @@
 body {
 	
   background-image: url('https://i.pinimg.com/originals/79/d3/f8/79d3f827a60c959f41069089db2ea0a3.gif');
-  background-size: 2000px 1200px; 
-	background-repeat: no-repeat;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+	height:100%;
+	width:100%;
 	  
 
 }
