@@ -1,0 +1,24 @@
+p{
+	padding-left: 100;
+	font-weight: bold;
+	font-style: italic;
+	color: teal;
+	font-size: 200%;
+
+}
+
+h4{
+	align-content: right;
+
+
+
+
+}
+body{background-image: url('https://images.unsplash.com/photo-1528459584353-5297db1a9c01?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhaW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+background-size: 1500px 900px;
+
+
+}
+img{
+	align-self: center;
+}
